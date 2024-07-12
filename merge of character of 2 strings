@@ -1,0 +1,9 @@
+S1=input()
+S2=input()
+i,j=0,0
+output=" "
+while i<len(S1) or j<len(S2):
+    output=output+S1[i]+S2[j]
+i=i+1
+j=j+1
+print(output)
